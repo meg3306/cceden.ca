@@ -1,9 +1,9 @@
-index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Centre Chrétien Eden</title>
+  <title>Communauté Centre Eden</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Fonts -->
@@ -13,15 +13,16 @@ index.html
 </head>
 <body>
 
-  <header class="navbar">
-    <div class="logo">CC EDEN</div>
-    <nav>
-      <a href="#">Accueil</a>
-      <a href="#">À propos</a>
-      <a href="#">Ministères</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+ <header class="navbar">
+  <div class="logo">CC EDEN</div>
+  <nav>
+    <a href="index.html" class="active">Accueil</a>
+    <a href="about.html">À propos</a>
+    <a href="ministries.html">Ministères</a>
+    <a href="Contact.html">Contact</a> <!-- Use capital C -->
+  </nav>
+</header>
+
 
   <section class="hero">
     <div class="overlay"></div>
@@ -35,9 +36,12 @@ index.html
       <h1>WELCOME HOME</h1>
       <p>Un lieu pour appartenir. Un lieu pour grandir.</p>
       <button id="visitBtn">PLAN YOUR VISIT</button>
+      <button onclick="window.location.href='Contact.html'">Nous contacter</button>
     </div>
   </section>
 
   <script src="main.js"></script>
+  
+
 </body>
 </html>
